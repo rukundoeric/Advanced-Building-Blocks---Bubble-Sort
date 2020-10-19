@@ -1,65 +1,52 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Bubble Sort
+> Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 
-> One paragraph statement about the project.
+## Setup Instruction
+* Clone this Repo
+* Navigate to project Directory
+* Now you can go at the end of file and put 
+ ```
+ puts bubble_sort([34, 64, 56, 78, 245, 78, 35, 35, 55, 1, 3, 5, 2])
+```
+ to test bubble_sort function or Modify this setion of code 
+```
+sorted_string = bubble_sort_by(%w[apple hello hey not hahhs]) do |left, right|
+  left.length - right.length
+end
+puts sorted_string
+```
+to test bubble_sort_by function
 
-![screenshot](./app_screenshot.png)
+* Finally, If you have ruby installed in your system, just run `bubblesort.rb`
 
-Additional description about the project and its features.
+## Live Demo
+[Live Demo Link](https://repl.it/@rukundoeric/AdvancedBuildingBlocksBubbleSort)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Ruby
 
 ## Authors
 
-👤 **Author1**
+👤 **Rukundo Eric**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@rukundoeric](https://github.com/rukundoeric)
+- Twitter: [@rukundoeric005](https://twitter.com/rukundoeric005)
+- LinkedIn: [Rukundo Eric](https://www.linkedin.com/in/rukundo-eric-000bba181/)
 
-👤 **Author2**
+👤 **Sinan Sevgi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@sinansevgi](https://github.com/sinansevgi)
+- LinkedIn: [@sinansevgi](https://www.linkedin.com/in/sinan-s-52559437/)
+- Twitter: [@nativeofcyber1](https://twitter.com/nativeofcyber1)
+
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
@@ -67,10 +54,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- We would like to thank our code reviewer and anyone else who participated in making this done.
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](./LICENSE) licensed.
