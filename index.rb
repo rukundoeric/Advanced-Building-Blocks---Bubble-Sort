@@ -8,3 +8,5 @@ def bubble_sort(array)
   end
   array
 end
+
+print bubble_sort([3, 7, 2, 4, 1, 32, 65, 2, 34, 78, 21, 3, 1])
