@@ -9,8 +9,6 @@ def bubble_sort(array)
   array
 end
 
-puts bubble_sort([34, 64, 56, 78, 245, 78, 35, 35, 55, 1, 3, 5, 2])
-
 def bubble_sort_by(array)
   array.each do |_item|
     (1...array.length).each do |i|
@@ -20,8 +18,6 @@ def bubble_sort_by(array)
   array
 end
 
-sorted_string = bubble_sort_by(%w[apple hello hey not hahhs]) do |left, right|
+bubble_sort_by(%w[apple hello hey not hahhs]) do |left, right|
   left.length - right.length
 end
-
-puts sorted_string
