@@ -9,4 +9,4 @@ def bubble_sort(array)
   array
 end
 
-print bubble_sort([3, 7, 2, 4, 1, 32, 65, 2, 34, 78, 21, 3, 1])
+print bubble_sort([3, 7, 2, 4, 1, 32, 65, 2, 34, 78, 21, 3, 1, 39, 80, 129])
